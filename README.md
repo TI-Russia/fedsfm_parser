@@ -10,7 +10,7 @@
 
 ## Output
 
-As result parser generates a table `"done_rosfinmonitor.xlsx"` with two sheets: 1) **data** wich is simply input data with additional field `"реестр_Росфинмониторинга"` 2) **meta** wich descripts the resutl.
+As result parser generates a table `"done_rosfinmonitor.xlsx"` with two sheets: 1) **data** wich is simply input data with additional field `"реестр_Росфинмониторинга"` 2) **meta** wich descripts the resutl. And a log file `"rosfinmonitor.log"`. The log file may contain information about response errors (time to time ["Росфинмониторинг"](https://portal.fedsfm.ru/check-inn)  doesn't work correct) if so сheck these "ИНН" codes manually.
 
 ## NB
 
