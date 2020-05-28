@@ -1,4 +1,4 @@
-from selenium.webdriver import Firefox
+from selenium.webdriver import Chrome
 import os
 import pandas as pd
 from pandas import ExcelWriter
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     e_logger.addHandler(file_handler)
     e_logger.setLevel(logging.ERROR)
 
-    driver = Firefox()
+    driver = Chrome("../chromedriver")
 
     driver.get("https://portal.fedsfm.ru/check-inn")
     time.sleep(random.uniform(5.5, 7.5))
